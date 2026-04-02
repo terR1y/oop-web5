@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>завдання 2</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="_header _header-2">
+      <a href="../index.html"
+        ><img src="../img/icon/arrow-icon.png" alt="arrow icon"
+      /></a>
+    </header>
+    <main class="_main _main-task2">
+      <form action="form_sent.html" method="get">
+        <table>
+          <caption>
+            вхід
+          </caption>
+          <tr>
+            <th><h3>ім'я:</h3></th>
+            <td><input type="text" required placeholder="your name" /></td>
+          </tr>
+          <tr>
+            <th><h3>e-mail:</h3></th>
+            <td><input type="email" required placeholder="your email" /></td>
+          </tr>
+          <tr>
+            <th><h3>пароль:</h3></th>
+            <td>
+              <input type="password" required placeholder="your password" />
+            </td>
+          </tr>
+          <tr>
+            <th><h3>вік:</h3></th>
+            <td>
+              <input type="number" required placeholder="enter your age" />
+            </td>
+          </tr>
+
+          <tr>
+            <th><h3>вкажіть країну:</h3></th>
+            <td>
+              <select name="conutries" id="">
+                <option value="" disabled selected hidden>--</option>
+                <option value="ukraine">Україна</option>
+                <option value="canada">Канада</option>
+                <option value="korea">Корея</option>
+                <option value="germany">Німеччина</option>
+                <option value="france">Франція</option>
+                <option value="italy">Італія</option>
+                <option value="spain">Іспанія</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><h3>про себе:</h3></th>
+            <td>
+              <textarea
+                name="about_user"
+                id="about"
+                placeholder="tell us something about yourself..."
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <th><h3>погодження:</h3></th>
+            <td>
+              <label for="condition">
+                я погоджуюся з умовами<input type="checkbox" />
+              </label>
+            </td>
+          </tr>
+        </table>
+        <button type="submit">зареєструватися</button>
+      </form>
+    </main>
+  </body>
+</html>
